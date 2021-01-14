@@ -27,7 +27,6 @@ public class Demo08 {
 		    * d:1
 		    */
 		
-		
 		   ArrayList<String> arrayList = Lists.newArrayList("a", "b", "c", "d", "a", "c");
 		   HashMultiset<String> multiset = HashMultiset.create(arrayList);
 		   multiset.elementSet().forEach(s -> System.out.println(s + ":" + multiset.count(s)));
