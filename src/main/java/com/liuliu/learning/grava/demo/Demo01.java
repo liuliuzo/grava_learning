@@ -3,6 +3,7 @@ package com.liuliu.learning.grava.demo;
 import com.google.common.base.Preconditions;
 
 public class Demo01 {
+	
 	public static void main(String[] args) {
 		String param = "AAA";
 		String name = Preconditions.checkNotNull(param);
